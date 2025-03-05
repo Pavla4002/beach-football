@@ -89,8 +89,14 @@ header {
 }
 
 .text-and-search {
+    position: relative;
+
+    width: 60%;
+
     display: flex;
     justify-content: space-between;
+
+    z-index: 3;
 }
 
 .main-text {
