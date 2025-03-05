@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Zen+Kaku+Gothic+Antique&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+span,  div, a, li {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif; 
+}
+.block_main{
+    background-color: #F6F3D8;
+    padding: 70px;
+    position: relative;
+
+}
+.main{
+    background-color: #FFFEF6;
+    width: 1549px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 30px;
+}
+.navigation ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+}
+.navigation ul li{
+    list-style: none;
+    margin-right: 25px;
+}
+.navigation{
+    flex-grow: 1;
+    margin-left: 160px;
+}
+
+.login{
+    font-size: 24px;
+    line-height: 33px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    border: 1px solid #000000;
+    border-radius: 12px;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+    display: flex;padding-left: 50px;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    height: 70px;
+}
+.green_text{
+    color:#01D98B;
+}
+.main_text{
+    margin-top: 150px;
+    width: 520px;
+    margin-left: 50px;
+
+}
+.input_df::-webkit-search-cancel-button{
+    display: none;
+    }
+
+.input_df{
+    direction: none
+    ;
+    outline: none;
+}
+.middle{
+    font-size: 40px;
+    line-height: 55px;
+}
+.main_text div h1{
+    font-size: 74px;
+    line-height: 101px;
+    font-style: normal;
+    font-weight: 900;
+}
+.information_text1{
+    font-size: 24px;
+    line-height: 42px;
+    font-style: normal;
+    font-weight: normal;
+}
+.block_for_block{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.search{
+margin-top: 100px;
+position: relative;
+}
+.input_df{
+    width: 500px;
+    height: 70px;
+    font-size: 20px;
+    padding-left: 60px;
+    border-color: #01D98B;
+    border-radius: 15px;
+    border-width: 3px;
+}
+.search_img{
+    position: absolute;
+    top: 17px;
+    left: 15px;
+}
+.text_buttom{
+    font-size: 20px;
+    line-height: 42px;
+}
+.box_for_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #01D98B;
+    border-radius: 50px;
+    position: absolute;
+    left:420px;
+    top:10px;
+    
+}
+.size_img{
+    width: 15px;
+    height: 25px;
+}
+.img_bottom{
+position: absolute;
+top:1137px;
+left:0px;
+}
+.group_img{
+margin-right: -1px;
+}
+.without_padding{
+    width: 1549px;
+    margin: 0 auto;
+}
